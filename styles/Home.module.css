@@ -12,11 +12,18 @@
   align-items: center;
 }
 
+.main > ::selection {
+  background: #ffed4e; /* WebKit/Blink Browsers */
+}
+.main > ::-moz-selection {
+  background: #ffed4e; /* Gecko Browsers */
+}
+
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  /* border-top: 1px solid #eaeaea; */
   justify-content: center;
   align-items: center;
 }
