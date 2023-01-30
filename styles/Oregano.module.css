@@ -1,0 +1,60 @@
+header.oregano {
+    padding:0;
+    margin: 0 auto;
+    display: grid;
+
+    justify-content: center;
+    align-items:center;
+    height: 400px;
+}
+
+h1.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.shade {
+    background-color: gray;
+}
+
+.container_text {
+    position:relative;
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items:center;
+}
+
+.title_text {
+    position:relative;
+    display:grid;
+    height:100vh;
+    font-size:4em;
+    font-weight:bold;
+    font-family:helvetica, arial;
+    color:#000000;
+    margin:0 auto;
+    text-align:center;
+    transition: opacity 0.3s;
+}
+.light_on_dark {
+    color:#ffffff;
+}
+
+.overlap {
+    position:relative;
+    z-index:10;
+    min-height:100vh;
+}
+
+.section_one {
+    height: 280vh;
+}
+
+.top_image {
+    position:sticky; 
+    top:-500px;
+    height:150vh; 
+    width:100vw; 
+    object-fit:cover;
+    z-index:-1;
+}
